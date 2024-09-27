@@ -42,6 +42,9 @@ const convertImagesToPdf = (imagesFolder) => {
       if (index !== 0) {
         doc.addPage();
       }
+
+      // Mengatur warna latar belakang hitam
+      doc.rect(0, 0, doc.page.width, doc.page.height).fill('black');
       
       // Menambahkan gambar ke halaman
       doc.image(imagePath, {
