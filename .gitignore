@@ -1,0 +1,6 @@
+# Modlue 
+/node_modules
+
+# Public
+/public/folder/*
+/public/pdf/*

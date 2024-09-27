@@ -1,0 +1,16 @@
+{
+  "name": "image-to-pdf",
+  "version": "1.0.0",
+  "description": "Ini adalah aplikasi untuk mengubah image jadi pdf berdasarkan folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pdfkit": "^0.15.0"
+  }
+}
