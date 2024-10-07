@@ -3,14 +3,24 @@
   "version": "1.0.0",
   "description": "Ini adalah aplikasi untuk mengubah image jadi pdf berdasarkan folder",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.7",
     "fs": "^0.0.1-security",
+    "image-size": "^1.1.1",
     "path": "^0.12.7",
+    "puppeteer": "^23.5.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/gm": "^1.25.4",
+    "@types/node": "^22.7.4",
+    "@types/pdfkit": "^0.13.5",
     "pdfkit": "^0.15.0"
   }
 }
